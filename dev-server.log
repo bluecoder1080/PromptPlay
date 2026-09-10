@@ -1,0 +1,27 @@
+
+> custom-game@0.0.1 dev
+> next dev
+
+▲ Next.js 16.2.6 (Turbopack)
+- Local:         http://localhost:3000
+- Network:       http://192.168.1.8:3000
+- Environments: .env.local
+✓ Ready in 695ms
+
+Attention: Clerk collects telemetry data from its SDKs when connected to development instances.
+The data collected is used to inform Clerk's product roadmap.
+To learn more, including how to opt-out from the telemetry program, visit: https://clerk.com/docs/telemetry.
+
+ GET /sign-in?redirect_url=http%3A%2F%2Flocalhost%3A3000%2F 200 in 1772ms (next.js: 992ms, proxy.ts: 291ms, application-code: 488ms)
+ GET /sign-in?redirect_url=http%3A%2F%2Flocalhost%3A3000%2F 200 in 178ms (next.js: 35ms, proxy.ts: 28ms, application-code: 115ms)
+ GET /sign-in/SignIn_clerk_catchall_check_1789068744938 200 in 105ms (next.js: 15ms, proxy.ts: 20ms, application-code: 70ms)
+ GET /sign-in/SignIn_clerk_catchall_check_1789068745364 200 in 163ms (next.js: 25ms, proxy.ts: 23ms, application-code: 115ms)
+[browser] Clerk: Clerk has been loaded with development keys. Development instances have strict usage limits and should not be used when deploying your application to production. Learn more: https://clerk.com/docs/deployments/overview (https://rare-doberman-477.clerk.accounts.dev/npm/@clerk/clerk-js@6/dist/clerk.browser.js:12:7821)
+[browser] Clerk: Clerk has been loaded with development keys. Development instances have strict usage limits and should not be used when deploying your application to production. Learn more: https://clerk.com/docs/deployments/overview (https://rare-doberman-477.clerk.accounts.dev/npm/@clerk/clerk-js@6/dist/clerk.browser.js:12:7821)
+ GET /sign-in?redirect_url=http%3A%2F%2Flocalhost%3A3000%2F 200 in 233ms (next.js: 36ms, proxy.ts: 23ms, application-code: 175ms)
+[browser] Clerk: Clerk has been loaded with development keys. Development instances have strict usage limits and should not be used when deploying your application to production. Learn more: https://clerk.com/docs/deployments/overview (https://rare-doberman-477.clerk.accounts.dev/npm/@clerk/clerk-js@6/dist/clerk.browser.js:12:7821)
+ GET /sign-in/SignIn_clerk_catchall_check_1789068755853 200 in 176ms (next.js: 28ms, proxy.ts: 38ms, application-code: 111ms)
+ GET / 307 in 335ms (next.js: 96ms, proxy.ts: 28ms, application-code: 211ms)
+ GET /sign-in?redirect_url=http%3A%2F%2Flocalhost%3A3000%2F 200 in 242ms (next.js: 35ms, proxy.ts: 16ms, application-code: 191ms)
+[browser] Clerk: Clerk has been loaded with development keys. Development instances have strict usage limits and should not be used when deploying your application to production. Learn more: https://clerk.com/docs/deployments/overview (https://rare-doberman-477.clerk.accounts.dev/npm/@clerk/clerk-js@6/dist/clerk.browser.js:12:7821)
+ GET /sign-in/SignIn_clerk_catchall_check_1789068759990 200 in 165ms (next.js: 32ms, proxy.ts: 16ms, application-code: 117ms)
