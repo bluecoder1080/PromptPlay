@@ -10,7 +10,7 @@ import {
 
 export default function Page() {
   return (
-    <Empty>
+    <Empty className="min-h-screen">
       <EmptyHeader>
         <EmptyMedia>
           <Image src="/logo.svg" alt="PromptPlay" width={96} height={96} />
