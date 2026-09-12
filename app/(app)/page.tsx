@@ -16,7 +16,7 @@ export default async function Page() {
 
   return (
     <>
-      <Empty className="min-h-screen">
+      <Empty>
         <EmptyHeader>
           <EmptyMedia>
             <Image src="/logo.svg" alt="PromptPlay" width={96} height={96} />
