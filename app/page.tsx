@@ -1,6 +1,6 @@
 import Image from "next/image"
 
-import { UserButton } from "@clerk/nextjs"
+import { UserButton, OrganizationSwitcher } from "@clerk/nextjs"
 import { auth } from "@clerk/nextjs/server"
 
 import {
@@ -29,6 +29,7 @@ export default async function Page() {
         </EmptyHeader>
       </Empty>
       <UserButton />
+      <OrganizationSwitcher/>
     </>
   )
 }
